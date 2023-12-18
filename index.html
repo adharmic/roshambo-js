@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roshambo</title>
-    <script src="./roshambo.js"></script>
+    <script src="./roshambo.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="play-buttons">
+        <button id="play-rock">Rock</button>
+        <button id="play-paper">Paper</button>
+        <button id="play-scissors">Scissors</button>
+    </div>
+    <div class="announcer">
+        <span class="announcer-text">Choose an option!</span>
+    </div>
+    <div class="scoreboard">
+        <div class="player-score">
+            <span>Player Score:</span>
+            <span class="player-score-text">0</span>
+        </div>
+        
+        <div class="computer-score">
+            <span>Computer Score:</span>
+            <span class="computer-score-text">0</span>
+        </div>
+    </div>
+    <div class="reset">
+        <button id="reset-button">Restart Game</button>
+    </div>
 </body>
 </html>

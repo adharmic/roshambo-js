@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 200px;
+    flex-basis: 50%;
+}
+
+.play-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.scoreboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.announcer {
+    font-size: large;
+    font-weight: 950;
+}
